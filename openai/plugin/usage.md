@@ -8,7 +8,7 @@ pip install -r requirements.txt
 To run the plugin, enter the following command:
 
 ```
-python main.py
+python app.py
 ```
 Once the local server is running:
 
