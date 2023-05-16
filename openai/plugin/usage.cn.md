@@ -1,3 +1,4 @@
+[![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/kulee-ai/ai-sample/blob/master/openai/plugin/usage.md)
 # 启动项目
 
 使用以下命令安装python依赖：

@@ -1,3 +1,5 @@
+[![cn](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/kulee-ai/ai-sample/blob/master/openai/plugin/usage.cn.md)
+
 # Setup
 
 To install the required packages for this plugin, run the following command:

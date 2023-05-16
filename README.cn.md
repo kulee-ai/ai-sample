@@ -1,3 +1,4 @@
+[![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/kulee-ai/ai-sample/blob/master/README.md)
 # 这个仓库的目的是什么
 
 向对AI感兴趣，但是自身代码基础薄弱或者零基础的人提供一个简单的样例代码。

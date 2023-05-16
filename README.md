@@ -1,3 +1,4 @@
+[![cn](https://img.shields.io/badge/lang-cn-red.svg)](https://github.com/kulee-ai/ai-sample/blob/master/README.cn.md)
 # What is the purpose of this repository?
 Provide simple sample guidance for people with weak or even zero code foundations, so that their enthusiasm for AI will not disappear.
 
