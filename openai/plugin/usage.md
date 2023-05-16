@@ -1,4 +1,4 @@
-[![cn](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/kulee-ai/ai-sample/blob/master/openai/plugin/usage.cn.md)
+[![cn](https://img.shields.io/badge/lang-cn-red.svg)](https://github.com/kulee-ai/ai-sample/blob/master/openai/plugin/usage.cn.md)
 
 # Setup
 
