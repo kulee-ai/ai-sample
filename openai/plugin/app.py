@@ -9,6 +9,8 @@ app = quart_cors.cors(quart.Quart(__name__), allow_origin="https://chat.openai.c
 
 _TODOS = {}
 
+PLUGIN_HOSTNAME = 'http://localhost:5002'
+
 
 @app.post("/todos/<string:username>")
 async def add_todo(username):
@@ -44,8 +46,7 @@ async def plugin_manifest():
     host = request.headers['Host']
     with open("ai-plugin.json") as f:
         text = f.read()
-        # This is a trick we do to populate the PLUGIN_HOSTNAME constant in the manifest
-        text = text.replace("PLUGIN_HOSTNAME", f"https://{host}")
+        text = text.replace(PLUGIN_HOSTNAME, f"https://{host}")
         return quart.Response(text, mimetype="text/json")
 
 
@@ -54,8 +55,7 @@ async def openapi_spec():
     host = request.headers['Host']
     with open("openapi.yaml") as f:
         text = f.read()
-        # This is a trick we do to populate the PLUGIN_HOSTNAME constant in the OpenAPI spec
-        text = text.replace("PLUGIN_HOSTNAME", f"https://{host}")
+        text = text.replace(PLUGIN_HOSTNAME, f"https://{host}")
         return quart.Response(text, mimetype="text/yaml")
 
 
